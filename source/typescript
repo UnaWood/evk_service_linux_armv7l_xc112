@@ -1,0 +1,78 @@
+Script started on Wed 14 Nov 2018 11:14:07 CST
+]0;pi@raspberrypi: ~/evk_service_linux_armv7l_xc112/out[01;32mpi@raspberrypi[00m:[01;34m~/evk_service_linux_armv7l_xc112/out $[00m sudo poweroffodo power off./example_service_power_bins_rpi_xc112_r2b_xr112_r2b_a111_r2c 
+Acconeer software version v1.3.8
+Acconeer RSS version 1.0
+11:14:24.937 [ 1945] (I) (rss): Radar system services activated
+11:14:24.958 [ 1945] (I) (core_a111_r2c): Pll status (4)
+11:14:25.096 [ 1945] (I) (core_a111_r2c): Dll slope status (55, 4, 18)
+11:14:25.107 [ 1945] (I) (core_a111_r2c): Dll offset status (5, 20)
+11:14:25.234 [ 1945] (I) (core_a111_r2c): Area status (29, 50, 120359)
+11:14:25.257 [ 1945] (I) (core_a111_r2c): Offset_calibration status: 5135
+11:14:25.257 [ 1945] (I) (core_a111_r2c): session_sweep_and_processing: sensor 1 config: 8 1 10 15 7 4 0 0 1 1 0 0x1f 1 1 0
+Free space absolute offset: 5 mm
+Actual start: 200 mm
+Actual length: 400 mm
+Actual end: 600 mm
+Bin count: 8
+11:14:25.276 [ 2057] (I) (session_sweep_and_processing): State null: Activate request
+11:14:25.276 [ 1945] (I) (session_sweep_and_processing): acc_session_sweep_and_processing_activate: Activation confirmed
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	571	622	293	394	275	276	257	228	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	591	612	353	414	275	306	257	278	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	561	672	343	394	285	246	287	258	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	601	632	273	424	315	276	237	208	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	551	612	343	444	335	276	257	258	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	521	622	353	394	325	316	257	248	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	621	652	283	384	325	246	257	228	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:25 : 0	591	662	283	404	295	296	257	278	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	551	622	283	414	295	266	227	238	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	641	662	333	374	295	326	247	288	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	581	612	333	384	275	286	257	218	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	571	672	343	394	325	296	257	248	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	551	612	323	414	315	266	227	248	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	621	582	333	424	285	246	257	228	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	561	592	313	414	265	246	257	278	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	611	622	313	424	345	316	237	258	09	18210	011	012	013	014	0
+Power_bins callback result_info->sequence_number: 18212
+Power_bins callback data:
+2018-11-14 11:14:26 : 0	561	642	343	414	275	266	247	248	09	18210	011	012	013	014	0
+^C11:14:26.980 [ 2057] (F) (sensor_protocol): Generic0 Interrupt has already been cleared on sensor 1! Communication out of sync.
+11:14:26.980 [ 2057] (I) (sensor_protocol): Run_status stopped at : 0
+11:14:26.980 [ 2057] (E) (driver_gpio_linux_sysfs): Could not write to gpio18 direction: Bad file descriptor
+11:14:26.980 [ 2057] (E) (device_gpio): acc_device_gpio_write failed with Failure
+11:14:26.980 [ 2057] (E) (board_rpi_xc112_r2b): Failed to deselect sensor 1, status 4
+]0;pi@raspberrypi: ~/evk_service_linux_armv7l_xc112/out[01;32mpi@raspberrypi[00m:[01;34m~/evk_service_linux_armv7l_xc112/out $[00m exit
+exit
+
+Script done on Wed 14 Nov 2018 11:14:34 CST
